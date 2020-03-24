@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HoursPage.vue renders correctly 1`] = `
+<page-stub
+  xmlns:card="@nstudio/nativescript-cardview"
+  xmlns:dd="nativescript-drop-down"
+>
+  <actionbar-stub>
+    <label
+      text="Klokken"
+    />
+  </actionbar-stub>
+   
+  <checkincomponent-stub />
+</page-stub>
+`;

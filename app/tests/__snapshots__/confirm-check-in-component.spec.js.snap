@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmCheckInComponent.vue renders correctly 1`] = `
+<scrollview-stub>
+  <stacklayout-stub
+    orientation="vertical"
+  >
+    <cardview-stub
+      class="card"
+      elevation="10"
+      radius="5"
+    >
+      <gridlayout-stub
+        class="form"
+        rows="auto, auto"
+      >
+        <gridlayout-stub
+          row="0"
+        >
+          <label
+            class="fa"
+            id="checkIcon"
+            text="fa-check-circle"
+          />
+        </gridlayout-stub>
+         
+        <gridlayout-stub
+          row="1"
+        >
+          <label
+            class="checkInText"
+            text="Je bent om undefined ingeklokt"
+          />
+        </gridlayout-stub>
+      </gridlayout-stub>
+    </cardview-stub>
+  </stacklayout-stub>
+</scrollview-stub>
+`;

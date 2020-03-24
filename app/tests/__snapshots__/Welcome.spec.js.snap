@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WelcomeScreen.vue renders correctly 1`] = `
+<page-stub
+  actionbarhidden="true"
+  class="body"
+>
+  <flexboxlayout-stub
+    class="page"
+  >
+    <label
+      class="welcome-txt"
+      text="Welkom undefined undefined"
+    />
+     
+    <activityindicator-stub
+      busy="true"
+      color="#fff"
+    />
+  </flexboxlayout-stub>
+</page-stub>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue renders correctly 1`] = `
+<page-stub
+  actionbarhidden="true"
+  class="body"
+>
+  <image
+    class="logo"
+    src="~/assets/images/nos-managementapp-logo.png"
+  />
+</page-stub>
+`;

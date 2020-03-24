@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage.vue Standard renders correctly 1`] = `
+<page-stub
+  actionbarhidden="true"
+  xmlns:dd="nativescript-drop-down"
+>
+  <scrollview-stub>
+    <stacklayout-stub>
+      <image
+        class="login-logo"
+        src="~/assets/images/nos-managementapp-logo.png"
+      />
+       
+      <gridlayout-stub
+        class="container"
+        rows="auto"
+      >
+        <stacklayout-stub
+          class="form"
+          row="0"
+        >
+          <label
+            class=""
+            text="Gebruikersnaam"
+          />
+           
+          <gridlayout-stub
+            class=""
+            columns="*, auto"
+          >
+            <textfield-stub
+              automationtext="username"
+              col="0"
+              hint="Type something"
+              isenabled="true"
+              returnkeytype="next"
+              value=""
+            />
+             
+            <label
+              class="fas"
+              col="1"
+              text="fa-user"
+            />
+          </gridlayout-stub>
+           
+          <label
+            class=""
+            text="Wachtwoord"
+          />
+           
+          <gridlayout-stub
+            class=""
+            columns="*, auto"
+          >
+            <textfield-stub
+              automationtext="password"
+              col="0"
+              hint="Type something"
+              isenabled="true"
+              returnkeytype="next"
+              secure=""
+              value=""
+            />
+             
+            <label
+              class="fas"
+              col="1"
+              text="fa-unlock"
+            />
+          </gridlayout-stub>
+           
+          <stacklayout-stub
+            class="horContainer"
+            orientation="horizontal"
+          >
+            <stacklayout-stub
+              class="account-name"
+            >
+              <label
+                text="Accountnaam"
+              />
+               
+              <textfield-stub
+                automationtext="accountname"
+                hint="Type something"
+                isenabled="true"
+                returnkeytype="next"
+                value=""
+              />
+            </stacklayout-stub>
+             
+            <stacklayout-stub
+              class="domain-name"
+            >
+              <label
+                text="Domeinnaam"
+              />
+               
+              <dropdown-stub
+                automationtext="selection"
+                hint="Domein"
+                isenabled="true"
+                itemspadding="15px"
+              />
+            </stacklayout-stub>
+          </stacklayout-stub>
+           
+          <button
+            class="loginBtn"
+            isenabled="true"
+          >
+            Inloggen
+          </button>
+        </stacklayout-stub>
+         
+        <activityindicator-stub
+          rowspan="0"
+        />
+      </gridlayout-stub>
+    </stacklayout-stub>
+  </scrollview-stub>
+</page-stub>
+`;

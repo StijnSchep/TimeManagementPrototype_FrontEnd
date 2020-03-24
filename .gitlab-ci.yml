@@ -1,0 +1,26 @@
+image: node:latest
+
+stages:
+  - test
+
+cache:
+  key: $CI_COMMIT_REF_SLUG
+  paths:
+    - node_modules/
+
+variables:
+  DOCKER_HOST: tcp://docker:2375/
+  DOCKER_DRIVER: overlay2
+
+testing:
+  image: markhobson/node-chrome:latest
+  stage: test
+  services:
+    - docker:dind
+  variables:
+    NODE_ENV: development
+  before_script:
+    - npm install --no-optional
+  script:
+    - npm run test -- -u
+    - npm run sonar

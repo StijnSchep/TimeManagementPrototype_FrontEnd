@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalendarPage.vue renders correctly 1`] = `
+<page-stub>
+  <actionbar-stub>
+    <label
+      text="Kalender"
+    />
+  </actionbar-stub>
+   
+  <stacklayout-stub
+    horizontalalignment="center"
+  >
+    <!---->
+     
+    <scrollview-stub
+      class=""
+    >
+      <stacklayout-stub
+        horizontalalignment="center"
+      />
+    </scrollview-stub>
+  </stacklayout-stub>
+</page-stub>
+`;

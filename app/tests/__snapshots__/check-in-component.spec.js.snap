@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckInComponent.vue renders correctly 1`] = `
+<scrollview-stub>
+  <stacklayout-stub>
+    <cardview-stub
+      class="card"
+      elevation="10"
+      radius="5"
+    >
+      <gridlayout-stub
+        class="container"
+        rows="auto"
+      >
+        <stacklayout-stub
+          class="form"
+          row="0"
+        >
+          <label
+            class=""
+            text="* Filiaal"
+          />
+           
+          <gridlayout-stub
+            class="gridTextfield"
+            columns="*, auto"
+          >
+            <dropdown-stub
+              col="0"
+              hint="Filiaalnaam"
+              itemspadding="15px"
+              returnkeytype="next"
+            />
+             
+            <label
+              class="fas"
+              col="1"
+              text="fa-building"
+            />
+          </gridlayout-stub>
+           
+          <label
+            class=""
+            text="* Afdeling"
+          />
+           
+          <gridlayout-stub
+            class="gridTextfield"
+            columns="*, auto"
+          >
+            <dropdown-stub
+              col="0"
+              hint="Afdelingnaam"
+              itemspadding="15px"
+              returnkeytype="next"
+            />
+             
+            <label
+              class="fas"
+              col="1"
+              text="fa-sitemap"
+            />
+          </gridlayout-stub>
+           
+          <stacklayout-stub
+            class="buttons"
+            orientation="horizontal"
+          >
+            <button
+              class="cancelBtn"
+            >
+              Annuleren
+            </button>
+             
+            <button
+              class="checkInBtn"
+            >
+              Inklokken
+            </button>
+          </stacklayout-stub>
+        </stacklayout-stub>
+         
+        <activityindicator-stub
+          row="0"
+        />
+      </gridlayout-stub>
+    </cardview-stub>
+  </stacklayout-stub>
+</scrollview-stub>
+`;

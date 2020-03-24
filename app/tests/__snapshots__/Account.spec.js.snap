@@ -1,0 +1,327 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountPage.vue renders correctly 1`] = `
+<page-stub>
+  <actionbar-stub>
+    <label
+      text="Account"
+    />
+  </actionbar-stub>
+   
+  <scrollview-stub>
+    <stacklayout-stub
+      horizontalalignment="center"
+    >
+      <cardview-stub
+        class="picture"
+      >
+        <stacklayout-stub>
+          <label
+            class="head"
+            text=" Pasfoto"
+          />
+           
+          <label
+            class="fas"
+            text="fa-user-circle"
+          />
+        </stacklayout-stub>
+      </cardview-stub>
+       
+      <cardview-stub
+        class="card"
+      >
+        <stacklayout-stub
+          class="card-body"
+        >
+          <label
+            class="head"
+            text=" Personalia"
+          />
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" Roepnaam"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" Naam"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" Tussenvoegsel"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" Achternaam"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+        </stacklayout-stub>
+      </cardview-stub>
+       
+      <cardview-stub
+        class="card"
+      >
+        <stacklayout-stub
+          class="card-body"
+        >
+          <label
+            class="head"
+            text=" Contactgegevens"
+          />
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" Postcode"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" Huisnummer"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" Toevoeging"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" Plaats"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" Telefoonnummer"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" Mobiel"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" E-mail"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+        </stacklayout-stub>
+      </cardview-stub>
+       
+      <cardview-stub
+        class="card"
+      >
+        <stacklayout-stub
+          class="card-body"
+        >
+          <label
+            class="head"
+            text=" Eigenschappen"
+          />
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" Geslacht"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" Geboortedatum"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" Geboorteplaats"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" Geboorteland"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" Nationaliteit"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+           
+          <stacklayout-stub
+            class="stack"
+          >
+            <label
+              class="record"
+              text=" Burgelijke staat"
+            />
+             
+            <textfield-stub
+              class="textfield"
+              editable="false"
+              text="-"
+            />
+          </stacklayout-stub>
+        </stacklayout-stub>
+      </cardview-stub>
+    </stacklayout-stub>
+  </scrollview-stub>
+</page-stub>
+`;

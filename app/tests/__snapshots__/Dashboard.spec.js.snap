@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard.vue renders correctly 1`] = `
+<page-stub
+  actionbarhidden="true"
+>
+  <bottomnavigation-stub>
+    <tabstrip-stub
+      style="border-top: 1px solid black;"
+    >
+      <tabstripitem-stub>
+        <label
+          class="fas"
+          col="1"
+          text="fa-home"
+        />
+      </tabstripitem-stub>
+       
+      <tabstripitem-stub>
+        <label
+          class="fa"
+          col="1"
+          text="fa-clock"
+        />
+      </tabstripitem-stub>
+       
+      <tabstripitem-stub>
+        <label
+          class="fa"
+          col="1"
+          text="fa-calendar-alt"
+        />
+      </tabstripitem-stub>
+       
+      <tabstripitem-stub>
+        <label
+          class="fas"
+          col="1"
+          text="fa-user-circle"
+        />
+      </tabstripitem-stub>
+       
+      <tabstripitem-stub>
+        <label
+          class="fas"
+          col="1"
+          text="fa-cog"
+        />
+      </tabstripitem-stub>
+    </tabstrip-stub>
+     
+    <tabcontentitem-stub>
+      <frame-stub>
+        <homecomponent-stub
+          token=""
+        />
+      </frame-stub>
+    </tabcontentitem-stub>
+     
+    <tabcontentitem-stub>
+      <frame-stub>
+        <hourscomponent-stub
+          token=""
+        />
+      </frame-stub>
+    </tabcontentitem-stub>
+     
+    <tabcontentitem-stub>
+      <frame-stub>
+        <calendarcomponent-stub
+          token=""
+        />
+      </frame-stub>
+    </tabcontentitem-stub>
+     
+    <tabcontentitem-stub>
+      <frame-stub>
+        <accountcomponent-stub
+          token=""
+        />
+      </frame-stub>
+    </tabcontentitem-stub>
+     
+    <tabcontentitem-stub>
+      <frame-stub>
+        <settingcomponent-stub
+          token=""
+        />
+      </frame-stub>
+    </tabcontentitem-stub>
+  </bottomnavigation-stub>
+</page-stub>
+`;
